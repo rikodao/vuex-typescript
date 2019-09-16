@@ -2,7 +2,7 @@
   <div>
     <p>{{ propMessage }}</p>
     <p :class="classesCount">{{ count }}</p>
-    <button @click="subAsync(10)">-10</button>
+    <button @click="sub()">-10</button>
     <button @click="decrement()">-1</button>
     <button @click="increment()">+1</button>
     <button @click="add()">+10</button>
